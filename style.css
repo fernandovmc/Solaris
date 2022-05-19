@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #181818
+}
+
+.menu {
+    text-align: right;
+    width: 1920px;
+    padding: 30px;
+    background-color: #000000
+}
+
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.conteudo {
+    margin-left: 8%;
+}
+
+.conteudo h1 {
+    font-size: 60px;
+    color: #ffffff
+}
+
+.conteudo p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #aaaaaa;
+    max-width: 500px;
+}
+
+.satelite {
+    margin-top: 35px;
+    margin-left: 800px;
+}
