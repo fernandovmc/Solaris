@@ -6,30 +6,33 @@
 }
 
 body{
-    background-color: #181818
+    background-color: #ffffff
 }
 
 .menu {
-    text-align: right;
+    text-align: center;
     width: 1920px;
     padding: 30px;
-    background-color: #000000
+    background-color: #ffffff;
+    filter: drop-shadow(1px 1px 20px rgba(0,0,0,0.2));
 }
 
 .menu a {
     font-size: 20px;
     text-decoration: none;
-    color: white;
-    margin-right: 15px;
+    color: #12a22d;
+    margin-right: 50px;
 }
 
 .conteudo {
-    margin-left: 8%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 33%
 }
 
 .conteudo h1 {
+    margin-top: 200px;
     font-size: 60px;
-    color: #ffffff
+    color: #12a22d
 }
 
 .conteudo p {
@@ -37,9 +40,4 @@ body{
     font-size: 20px;
     color: #aaaaaa;
     max-width: 500px;
-}
-
-.satelite {
-    margin-top: 35px;
-    margin-left: 800px;
 }
