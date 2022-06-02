@@ -9,20 +9,26 @@ body{
     background-color: #ffffff
 }
 
+#logo {
+    margin-right: 60%; 
+    font-size: 5rem;
+}
+
 .menu {
-    max-height: 127px;
+    max-height: 9%;
     text-align: right;
-    width: 1920px;
+    width: 100%;
     padding: 30px;
     background-color: #ffffff;
     filter: drop-shadow(1px 1px 20px rgba(0,0,0,0.2));
 }
 
 .menu a {
+    max-height: 33px;
     font-size: 25px;
     text-decoration: none;
     color: #12a22d;
-    margin-right: 60px;
+    margin-right: 2%;
 }
 
 .menu > a:hover{

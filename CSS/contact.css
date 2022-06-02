@@ -9,23 +9,84 @@ body{
     background-color: #ffffff
 }
 
+#logo {
+    margin-right: 60%; 
+    font-size: 5rem;
+}
+
 .menu {
-    max-height: 127px;
+    max-height: 9%;
     text-align: right;
-    width: 1920px;
+    width: 100%;
     padding: 30px;
     background-color: #ffffff;
     filter: drop-shadow(1px 1px 20px rgba(0,0,0,0.2));
 }
 
 .menu a {
+    max-height: 33px;
     font-size: 25px;
     text-decoration: none;
     color: #12a22d;
-    margin-right: 60px;
+    margin-right: 2%;
 }
 
 .menu > a:hover{
     opacity: 40%;
     transition: 300ms;
+}
+
+.right{
+    margin-top: 9%;
+    margin-left: 50%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.right h1{
+    margin-top: -25%;
+    font-size: 40px;
+    color: #12a22d;
+    margin-bottom: 5%;
+}
+
+.field{
+    font-size: 1rem;
+    color: #12a22d;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#mensagem{
+    height: 250px;
+}
+
+#btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #12a22d;
+}
+
+#btn:hover{
+    opacity: 50%;
+    transition: 300ms;
+}
+
+.left {
+    margin-left: 25%;
+    margin-top: -35%;
+}
+
+.left h1{
+    max-width: 500px;
+    font-size: 50px;
+    color: #12a22d;
+}
+
+.left h2{
+    margin-top: 10%;
+    font-size: 50px;
+    color: #12a22d;
 }

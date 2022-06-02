@@ -9,23 +9,56 @@ body{
     background-color: #ffffff
 }
 
+#logo {
+    margin-right: 60%; 
+    font-size: 5rem;
+}
+
 .menu {
-    max-height: 127px;
+    max-height: 9%;
     text-align: right;
-    width: 1920px;
+    width: 100%;
     padding: 30px;
     background-color: #ffffff;
     filter: drop-shadow(1px 1px 20px rgba(0,0,0,0.2));
 }
 
 .menu a {
+    max-height: 33px;
     font-size: 25px;
     text-decoration: none;
     color: #12a22d;
-    margin-right: 60px;
+    margin-right: 2%;
 }
 
 .menu > a:hover{
     opacity: 40%;
     transition: 300ms;
+}
+
+.right{
+    margin-top: 8%;
+    margin-left: 45%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.right h1{
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: #12a22d;
+}
+
+.right p{
+    color: #aaaaaa;;
+    font-size: 25px;
+}
+
+.left {
+    margin-left: 25%;
+    margin-top: -30%;
+}
+
+#imagem {
+    object-fit: cover;
 }
