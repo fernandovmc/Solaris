@@ -35,3 +35,59 @@ body{
     opacity: 40%;
     transition: 300ms;
 }
+
+.btn{
+    font-size: 1rem;
+    background-color: #12a22d;
+    color: #ffffff;
+    padding: 12px 80px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 40%;
+    transition: 500ms;
+}
+
+.heading {
+    color: #12a22d;
+    font-size: 3rem;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+
+.meio .box-container{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.meio .box-container .box{
+    padding: 5rem;
+    text-align: center;
+        border: var(--border);
+}
+
+.meio .box-container .box img{
+    height: 8rem;
+}
+
+.meio .box-container .box h3{
+    color: #12a22d;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.meio .box-container .box .price{
+    color: black;
+    font-size: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 5%;
+}
+
+.meio .box-container .box:hover{
+    background-color: rgba(0,0,0,0.1);
+    transition: 500ms;
+}
