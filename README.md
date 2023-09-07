@@ -1,2 +1,2 @@
 # Solaris
-Web page project about a fictional company made in HTML and CSS.
+Página WEB sobre uma empresa fícticia, feito em HTML e CSS
